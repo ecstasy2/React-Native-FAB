@@ -154,7 +154,7 @@ export default class FAB extends Component {
 
     const dimensionInterpolate = translateValue.interpolate({
       inputRange: [0, 1],
-      outputRange: [0, 56],
+      outputRange: [0, 40],
     });
 
     const rotateInterpolate = translateValue.interpolate({
